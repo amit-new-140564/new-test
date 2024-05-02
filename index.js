@@ -8,7 +8,7 @@ const port = 5000;
 
 // CORS configuration
 const corsOptions = {
-  origin: "https://new-front-up.vercel.app/", // Remove the trailing slash
+  origin: "https://new-front-up.vercel.app", // Remove the trailing slash
   methods: ["POST", "GET"],
   credentials: true,
   optionsSuccessStatus: 204 // No Content
